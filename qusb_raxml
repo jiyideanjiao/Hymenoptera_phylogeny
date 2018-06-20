@@ -1,0 +1,13 @@
+#!/bin/bash -f
+#$ -N sps_tree
+#$ -cwd
+#$ -S /bin/bash
+#$ -V
+#$ -m bea
+#$ -pe openmp 15
+#$ -M tongchao1990@gmail.com
+#$ -o ./sps_tree.stdout
+#$ -e ./sps_tree.stderr
+#$ -w e
+
+sh raxml.sh
