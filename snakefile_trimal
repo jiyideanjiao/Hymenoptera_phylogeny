@@ -1,0 +1,11 @@
+OGG, = glob_wildcards("{ogg}.aln")
+THREADS = 10
+
+rule all:
+	input: expand("{ogg}.trimal.fas",ogg=OGG)
+
+rule muscle:
+	input: "{ogg}.aln"
+	output: "{ogg}.trimal.fas"
+	threads: 10
+	shell: "trimal -in {input} -out {output} -automated1"
