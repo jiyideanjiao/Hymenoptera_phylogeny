@@ -8,4 +8,4 @@ rule muscle:
 	input: "{ogg}.fas"
 	output: "{ogg}.aln"
 	threads: 10
-	shell: "muscle -in {input} -clwout {output}"
+	shell: "muscle -in {input} -out {output}"
