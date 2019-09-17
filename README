@@ -4,11 +4,5 @@
 2. trimal #remove gaps
   run snakefile_trimal
   
-3. 
-
-
-
-
-
-
-
+3. raxml
+  sbatch/qsub command(raxml.sh)
