@@ -1,0 +1,14 @@
+1. alignment
+  run snakefile_muscle
+
+2. trimal #remove gaps
+  run snakefile_trimal
+  
+3. 
+
+
+
+
+
+
+
