@@ -1,3 +1,7 @@
-# Hymenoptera_phylogeny
+# Phylogenomics of hymenopteran
 
-Reconstructed the phylogeny of the Hymenoptera used OGGs from OrthoDB v8
+- Author: Chao Tong
+- Date: Jan-1-2020
+
+### Gene Orthology
+- Reconstructed the phylogeny of the Hymenoptera with OGGs from OrthoDB
